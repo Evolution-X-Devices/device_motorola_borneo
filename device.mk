@@ -21,11 +21,11 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 1600
 TARGET_SCREEN_WIDTH := 720
 
-# Moto Camera 3
+# Moto Camera 4
 TARGET_MOTCAMERA3 := borneo
 TARGET_USES_MOTCAMERA3 := true
 
-$(call inherit-product, vendor/motorola/MotCamera3/motcamera3.mk)
+$(call inherit-product, vendor/motorola/MotCamera4-bengal/motcamera4.mk)
 
 # Init
 PRODUCT_PACKAGES += \
